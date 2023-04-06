@@ -1,0 +1,148 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: hsl(213, 19%, 18%);
+  margin: 100px auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.imgstar {
+  width: 2rem;
+  height: 2rem;
+  background-color: hsl(216, 12%, 8%);
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  display: grid;
+  place-content: center;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+.star {
+  width: 0.8rem;
+}
+
+.b {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1rem;
+}
+.rate {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2rem;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ratingsno {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rate--buttons {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  background-color: hsl(211, 24%, 22%);
+  border-style: none;
+  color: white;
+}
+
+.rate--buttons:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.rate--buttons:active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  background-color: hsl(25, 97%, 53%);
+  border-style: none;
+  color: white;
+  margin-top: 1rem;
+}
+
+.buttono:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+.buttono:active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.submit:active {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.active{
+  background-color:hsl(25, 97%, 53%) ;
+  color: white;
+}
+
+.containero {
+  width: 300px;
+  height: 300px;
+  background-color: hsl(213, 19%, 18%);
+  margin: 100px auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: none;
+}
+
+.thankyou {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.thanks {
+  width: 8rem;
+}
+
+.state {
+  width: 70%;
+  background-color: hsl(213, 19%, 15%);
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 1rem;
+  color: hsl(25, 97%, 53%);
+  padding: 0.05rem;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+
+.t {
+  text-align: center;
+}
+
+.c {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
