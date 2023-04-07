@@ -4,7 +4,7 @@ const txt = document.querySelector(".state");
 let rateState = 0;
 
 const ratingClick = (event) => {
-  document.querySelectorAll(".rate__buttons").forEach((button) => {
+  document.querySelectorAll(".rate--buttons").forEach((button) => {
     button.classList.remove("active");
   });
 
